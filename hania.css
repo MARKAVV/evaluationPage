@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.Div1 {
+  background-color: black;    
+  width: 50%;
+  height: 1100px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	top: 0px;
+
+}
+
+.Div2 {
+    background-color: #940202;
+    width: 50%;
+    height: 1100px;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    
+}
+.Div3 {
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+.Div4 {
+    width: 350px;
+    height: 700px;
+    position: absolute;
+    left: 65%;
+    top: 100px;
+    
+    
+}
+.tit {
+    
+    font-family: 'Abril Fatface', cursive;
+	font-size: 36pt;
+	text-align: left;
+}
+
+.tit2 {
+    
+    font-family: 'Playfair Display', serif;
+	font-size: 25pt;
+	text-align: left;
+}
+
+.sub {
+    
+    font-family: 'Playfair Display', serif;
+	font-size: 14pt;
+	text-align: justify;
+}
+
+.sub2 {
+    
+    font-family: 'Josefin Sans', sans-serif;
+	font-size: 15pt;
+	text-align: justify;
+	color: white
+}
+
+
+.div5 {
+	background-color: black;
+	position: absolute;
+	width: 100%;
+	height: 1440px;
+	top: 1100px;
+	left: 0px;
+	text-align: center;
+}
+
+.div6 {
+	position:absolute;
+	width: 100%;
+	height: 150px;
+	top: 2540px;
+	left: 0px;
+	background-color: #940202;
+	text-align: center;
+	}
+
+* {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+a:link,
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+/* Nav Bar Sty */
+
+div.nav {
+	width: 200px;
+	background-color: black;
+	color: white;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	right: 0;
+	margin-top: 0;
+	height: 20px;
+}
+#title {
+  text-align: right;
+  vertical-align: middle;
+  margin: 0 auto;
+  font-size: 1em;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  right: 50%;
+}
+
+span.dropbutton {
+  text-align: right;
+  vertical-align: middle;
+  color: white;
+  position: fixed;
+  top: 10px;
+  left: 2%
+}
+#lines:hover {
+  transform: scale(1.1);
+}
+/* Dropdown Styling */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 100px;
+
+}
+.dropdown-content a {
+  padding: 50px 50px;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color:
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
